@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "index.sh", "use": "@now/bash" }
+  ],
+  "routes": [
+    { "src": "(.*)", "dest": "index.sh" }
+  ]
+}
